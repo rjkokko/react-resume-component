@@ -1,0 +1,41 @@
+{
+  "name": "react-resume-component",
+  "version": "0.0.1",
+  "description": "React resume component",
+  "keywords": [
+    "resume",
+    "cv",
+    "reac",
+    "react-component",
+    "resume-generation",
+    "cv-generation"
+  ],
+  "author": "Riku Kokko",
+  "license": "MIT",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.5.1",
+    "typography": "^0.16.17",
+    "webpack": "^4.19.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "base64-inline-loader": "^1.1.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "ttf-loader": "^1.0.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
