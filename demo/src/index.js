@@ -68,6 +68,7 @@ ReactDOM.render(
         period: "1895-1900"
       }
     ]}
+    miscSection={(<p className="description" style={{"position":"absolute", bottom: "0em", fontSize:"8px"}}>This resume was made with Riku Kokko's react-resume-component.<a href="https://github.com/rjkokko/react-resume-component.git"> github.com/rjkokko/react-resume-component</a></p>)}
   />,
   document.getElementById("root")
 );

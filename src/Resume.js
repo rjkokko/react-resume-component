@@ -21,7 +21,13 @@ class Resume extends Component {
       </span>
     );
   }
-
+  getMiscSection(props) {
+    if(props.miscSection) {
+      return (<section>{props.miscSection}</section>);
+    } else {
+      return null;
+    }
+  }
   render() {
     return (
       <div
@@ -127,6 +133,7 @@ class Resume extends Component {
               })}
             </div>
           </section>
+          {this.getMiscSection(this.props)}
         </div>
       </div>
     );
