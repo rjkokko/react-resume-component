@@ -78,6 +78,6 @@ ReactDOM.render(
 );
 ```
 
-See demo folder for complete example.
-
 ![Example resume](./demo/Tony-Stark-Resume.jpg)
+
+See complete example [here](https://github.com/rjkokko/react-resume-component/tree/master/demo).
